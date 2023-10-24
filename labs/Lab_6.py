@@ -41,5 +41,9 @@ def main():
             run = False
 
 
+
+def test():
+    pass
+
 if __name__ == '__main__':
     main()
