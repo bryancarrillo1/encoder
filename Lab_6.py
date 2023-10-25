@@ -18,23 +18,8 @@ def encoder():
 
     return print(f'Your encoded password is {string}')
 
-def decoder(encode):
-    string = ''
-    encoded = str(encode)
-    for i in encoded:
-        if i == 0:
-            string += 7
-        if i == 1:
-            string += 8
-        if i == 2:
-            string += 9
-        else:
-            temp = int(i)
-            new = temp - 3
-            newer = str(new)
-            string += newer
-
-    return string
+def decoder(encoded_password):
+    pass
 
 
 def main():
@@ -52,8 +37,8 @@ def main():
         if option == 1: # I need encoder to return its string and then save it to a variable I can refer to.
             encoder()
 
-        if option == 2:
-            decoder(encoder())
+        #if option == 2:
+           #pass
 
         if option == 3:
             run = False
