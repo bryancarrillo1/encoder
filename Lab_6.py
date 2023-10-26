@@ -18,6 +18,8 @@ def encoder():
 
     return print(f'Your encoded password is {string}')
 
+def decoder():
+    pass
 
 def main():
     run = True
@@ -34,8 +36,8 @@ def main():
         if option == 1: # need you to make encoder return its string into a variable that is re-callable
             encoder()
 
-        # if option == 2:
-        #     decoder()
+        if option == 2:
+            decoder()
 
         if option == 3:
             run = False
